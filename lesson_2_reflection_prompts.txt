@@ -1,0 +1,32 @@
+What happens when you initialize a repository? Why do you need to do it?
+    When a GitHub repo is initilized, a directory called ".git" is created 
+    wherever the command git init was used. You need to do this because all
+    of the information about the repository will be stored here from now on.
+    All of the commands that run over GitHub will be using the metadata that is 
+    stored on this file.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+    The git repository is already on the cloud, that means that all of your 
+    project is being affected by the files that are here. The working directory
+    is just stored locally, there is no connection at all to the internet. 
+    The staging area contains the information that is going to be commited/ 
+    the files that have been changed and that are being prepared to commit. This
+    information is neither on the working directory nor on the repository 
+    available and it is valuable becuase you can make sure that the files that 
+    you are going to merge into the repo are the ones that you specifically 
+    want.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
