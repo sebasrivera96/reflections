@@ -27,11 +27,27 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+    Los branches en git te permiten tener diferentes "caminos" por los cuales
+    el proyecto se esta desarrollando. Una razón por la que se quisiera hacer 
+    esto para realizar un cambio drastico en cuanto al funcionamiento del 
+    programa, en otras palabras un demo. En este caso se crea un branch paralela
+    al master branch lo cual permite seguir teniendo un programa que funciona
+    en caso de que quieras seguirlo usando o mostrarlo al mismo tiempo que estas 
+    desarrollando tu demo en una nueva branch.
 
 How do the diagrams help you visualize the branch structure?
+    The diagrams help you visualize which branches are available in the 
+    repository, which commits belong to each of the created branches and which
+    commits are not reachable because they were made with deatached HEAD. 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    El resultado es juntar dos caminos en un repositorio. Esto significa que los
+    archivos que fueron modificados tendran las modificaciones de ambas 
+    branches, aquellos que no se modificaron permanecen y los que se eliminaron
+    aunque solo haya sido en una de las branches ya no estarán. Se representa 
+    como un nuevo commit/nodo con dos padres porque queremos seguir teniendo 
+    accesso a los commits de ambas ramas.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
