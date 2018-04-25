@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+Yo pienso que cuando estas trabajando en un proyecto grande es mejor tener una remote repository. 
+Una razón es porque puedes perder todo tu trabajo si es que la computadora llega a fallar y la segunda 
+razón es que puedes trabajar de manera colaborativa con otras personas.
