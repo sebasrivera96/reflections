@@ -1,4 +1,14 @@
-When would you want to use a remote repository rather than keeping all your work local?
-Yo pienso que cuando estas trabajando en un proyecto grande es mejor tener una remote repository. 
-Una razón es porque puedes perder todo tu trabajo si es que la computadora llega a fallar y la segunda 
-razón es que puedes trabajar de manera colaborativa con otras personas.
+When would you want to use a remote repository rather than keeping all your work 
+local?
+    Yo pienso que cuando estas trabajando en un proyecto grande es mejor tener 
+    un remote repository. Una razón es porque puedes perder todo tu trabajo si 
+    es que la computadora llega a fallar y la segunda razón es que puedes 
+    trabajar de manera colaborativa con otras personas.
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+    La razón para hacer el pull de manera manual es porque los cambios que 
+    alguien más haga pueden hacer que temporalmente tu proyecto sea inservible.
+    Por ejemplo, si tú y otro compañer@ están trabajando en el desarrollo de
+    una misma feature y el código se sincroniza sin antes revisar los posibles
+    conflictos, es posible que el código que antes funcionaba deje de hacerlo. 
