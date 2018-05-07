@@ -11,4 +11,35 @@ automatically stay up-to-date with your remote repository?
     alguien más haga pueden hacer que temporalmente tu proyecto sea inservible.
     Por ejemplo, si tú y otro compañer@ están trabajando en el desarrollo de
     una misma feature y el código se sincroniza sin antes revisar los posibles
-    conflictos, es posible que el código que antes funcionaba deje de hacerlo. 
+    conflictos, es posible que el código que antes funcionaba deje de hacerlo.
+
+Describe the differences between forks, clones, and branches. When would you use 
+one instead of another?
+    Las branches o ramas deben de ser utilizadas cuándo dentro de un mismo 
+    proyecto se quieren intentar cambios drásticos o alguna nueva funcionalidad,
+    pero sin perder una version del projecto que funcione. Fork se da cunado un
+    repositorio se duplica en GitHub a mi propia cuenta. De esta manera tendré 
+    todo el poryecto hasta el último commit que se hizo por parte del 
+    repositorio original. Clone es cuando quieres tener una copia del repo
+    en tu máquina de manera que puedas modificar y más tarde hacer push para 
+    actualizar el proyecto con los cambios que se han hecho en el ambiente 
+    local.
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+    It is useful because the remote repository may change, for instance another
+    collaborator could have pushed a new commit, then I will need to know which 
+    was the last commit that I fetched from the remote repository. When I make
+    a pull I will merge the local master with the origin/master.
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+    Para trabajar de manera colaborativa sin estas herramientas tendrías que 
+    editar el proyecto una persona a la vez ya que no puedes crear branches ni
+    pull requests. Sería más fácil en el sentido de que nunca tendrías que 
+    resolver conflictos, como cuando en git haces merge y hay cambios por parte 
+    de dos usuarios en el mismo documento. Sin embargo, puedes llegar mucho más
+    lejos, más rápido y de manera más fiable con Git y GitHub.
+
+
+
