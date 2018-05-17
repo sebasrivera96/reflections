@@ -41,5 +41,11 @@ and what would be harder?
     de dos usuarios en el mismo documento. Sin embargo, puedes llegar mucho más
     lejos, más rápido y de manera más fiable con Git y GitHub.
 
-
-
+When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+    This approach is useful when you are trying something completly new and you 
+    don't want to lose a working state of your project, e.g. using a new 
+    algorithm that searches for the shortest path while trying to build a robot 
+    that walks thorugh a labyrinth. In any moment that you want, if this new
+    feature doesn't work you can simply checkout to master and start again 
+    trying to build this new feature.
